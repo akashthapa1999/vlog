@@ -1,0 +1,60 @@
+
+<html>
+
+
+    <head>
+        <title>Vlogpage</title>
+    </head>
+    {% include "header.html" %}
+
+    <body>
+
+        <div class = "index_thought">
+            <p class = "index_p">EVERYTHING IS PERSONAL. INCLUDING THIS BLOG. </p>
+            <h1 class = "index_h1">Train of Thought<h1>
+        </div>
+
+        <hr class = index_hr>
+
+        <div class = "index_vlog">
+            <div class = "index_inner_vlog">
+                <p class = index_p1>TRAIN OF THOUGHT</p>
+            </div>
+
+            {% for x in vlog %}
+            <div class = "index_vlog1">
+                <div class = "index_div_img">
+                    <img src = {{x.img.url}} alt = "img" class = "vlog_img">
+                </div>
+                <div class = "div_date_btn">
+                    <div class = "div_date">
+                        <h5 class = "inner_date">{{x.Date}}</h5>
+                    </div>
+                    <div class = "div_edit_button">
+                        <button type = "button" class = "edit_button">Edit</button>
+                    </div>
+                    <div class = "div_delete_button">
+                        <button type = "button" class = "delete_button">Delete</button>
+                    </div>
+                </div>
+
+                <div class = "div_thought">
+                    <h4 class = "div_thought_h4">Author :{{x.first_name}}<h4>
+                </div>
+
+                <div class = "display_thought">
+                    <h4 class = "innre_display">{{x.thought}}<h4>
+                </div>
+
+            </div>
+            {% endfor %}
+
+        
+        </div>
+        
+        <hr class = index_hr>
+    </body>
+
+</html>
+
+{% include "footer.html" %}

@@ -1,0 +1,210 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+
+}
+                                        /* Header */
+.home_header{
+    border: 2px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.home_box1{
+    width: 10%;
+    float: left;
+    padding:0%;
+    margin: -1%;
+
+}
+
+.home_box2 ul li a{
+    width: 70%;
+    display: inline;
+    text-decoration: none;
+    font-size: 150%;
+    padding: 1%;
+    margin :4%;	
+}
+
+                                        /*  Footer */
+
+.home_footer{
+    width: 100%;
+  
+
+}
+
+.footer_box1{
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.footer_box2{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.table{
+    margin: 0px auto; 
+    width: 40%;
+    
+}
+
+.table_input{
+    height: 30px;
+    width: 250px;
+}
+
+.table_text{
+    resize: none;
+    width: 100%;
+}
+
+.table_row1{
+    text-align: left;
+}
+
+.email_input{
+    width: 80%;
+    height: 30px; 
+}
+
+.email_input1{
+    width: 75%;
+    height: 36px;
+}
+.table_name{
+    margin: 1%;
+    margin-top: 2%;
+}
+.table_button{
+    margin-top: 5%;
+    width: 15%;
+    height: 30px;
+}
+
+                                                        /* INDEX */
+
+.index_thought{
+    margin-top: 2px;
+    text-align: center;
+}
+
+.index_p{
+    font-size: 20px;
+}
+
+.index_h1{
+    font-size: 40px;
+    margin-top: 1px;
+
+}
+
+.vlog_img{
+    width: 100%;
+    height: 100%;
+}
+
+.index_hr{
+    height:2px;
+    border-width:0;
+    color: black;
+    background-color:black;
+    clear: both;
+    margin-top: 5px;
+}
+
+.index_vlog{
+    width: 100%;
+    margin-top: 2px;
+    height: 100%;
+
+}
+
+.index_inner_vlog{
+    width:80%;
+    height: 8%;
+}
+
+.index_p1{
+    font-size: 25px;
+    margin: 15px;
+    margin-left: 200px;
+}
+
+
+.index_vlog1{
+    width: 100%;
+    height: 30%;
+    border: 2px solid black;
+    margin-top: 5px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.index_div_img{
+    width: 30%;
+    border: 2px solid black;
+    height: 100%;
+    float: left;
+}
+
+.div_date_btn{
+    width: 68%;
+    float: right;
+    height: 15%;
+    margin-right: 10px;
+}
+
+.div_date{
+    width:20%;
+    
+
+}
+.inner_date{
+    height: 100%;
+    float: left;
+    
+}
+
+.div_edit_button{
+    float: right;
+    width: 6%;
+}
+.div_delete_button{
+    float: right;
+    width: 10%; 
+    margin-right: 12px;  
+}
+.edit_button{
+    width: 100%;
+    height: 100%;
+}
+
+.delete_button{
+    width: 100%;
+    height: 100%;
+}
+.div_thought{
+    width: 68%;
+    float: right;
+    height: 10%;
+    margin-top: 10px;
+    margin-right:18px;
+
+}
+.div_thought_h4{
+    margin: 5px;
+}
+
+.display_thought{
+    width: 68%;
+    float: right;
+    height: 68%;
+    border: 2px solid black;
+    margin-top: 2px;
+    margin-right: 15px;
+
+}
+

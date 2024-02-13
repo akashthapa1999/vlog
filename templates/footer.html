@@ -1,0 +1,64 @@
+<html>
+
+    <head>
+        <title>footer</title>
+        <link rel = "stylesheet" href = "\static\css\crud.css"/>
+    </head>
+
+    <body>
+        <div class = "home_footer">
+            <div class = 'footer_box1'>
+                <h2>Drop a thought, Let Me Know What You Think</h2>
+            </div>
+
+            <div class = 'footer_box2'>
+                <form action = '/footer/' method = "POST" >
+                {% csrf_token %}
+
+                    <table class = "table" >
+                        <tr class = "table_row1">
+                            <th ><h4 class = "table_name">First Name</h4></th>
+                            <th ><h4 class = "table_name">Last Name</h4></th>
+                        </tr>
+                        <tr class = "table_row">
+                            <td><input type = "text" name = "fname" class = "table_input"required></td>
+                            <td><input type = "text" name = "lname" class = "table_input" required></td>
+                        </tr>
+
+                        <tr class = "table_row1">
+                            <th ><h4 class = "table_name">Date</h4></th>
+                            <th ><h4 class = "table_name">Image</h4></th>
+                        </tr>
+                        <tr>
+                            <td ><input type = "date" name = "table_date" class = "email_input" required></td>
+                            <td><input type = "file" name = "img" class = "email_input"></td>
+                        </tr class = "table_row">
+
+                        <tr class = "table_row1">
+                            <th colspan = "2"><h4 class = "table_name">Email</h4></th>
+                        </tr>
+                        <tr>
+                            <td colspan = "2"><input type = "email" name = "table_email" class = "email_input1" required></td>
+                        </tr >
+
+                        <tr class = "table_row1">
+                            <th colspan = "2" ><h4 class = "table_name">Thought</h4></th>
+                        </tr>
+                        <tr class = "table_row">
+                            <td colspan = "2"><textarea name = "thought" rows="4" cols="50" class = "table_text" maxlength="500" placeholder = "Use only 500 words" required></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <th colspan = "2"><input type = "submit" class = "table_button"> &nbsp &nbsp &nbsp <input type = "reset" class = "table_button"><th>
+                        <tr>
+
+                    </table>
+                    
+
+                    
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
